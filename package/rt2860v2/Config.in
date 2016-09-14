@@ -1,0 +1,9 @@
+comment "rt2860v2 needs a Linux kernel to be built"
+	depends on !BR2_LINUX_KERNEL
+
+config BR2_PACKAGE_RT2860V2
+	bool "rt2860v2"
+	depends on BR2_LINUX_KERNEL
+	help
+		rt2860v2 Wi-Fi driver
+		https://github.com/FloTechnologies/icd-rt2860v2
