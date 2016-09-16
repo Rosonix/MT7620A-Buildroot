@@ -4,6 +4,7 @@
 #
 ################################################################################
 
+VMLINUX_LOAD_ADDRESS = 0xffffffff80000000
 LINUX_VERSION = $(call qstrip,$(BR2_LINUX_KERNEL_VERSION))
 LINUX_LICENSE = GPLv2
 LINUX_LICENSE_FILES = COPYING
